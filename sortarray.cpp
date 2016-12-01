@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 #include<algorithm>
-
 using namespace std;
 
 void min (int data[], const int index);
