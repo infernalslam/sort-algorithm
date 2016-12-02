@@ -3,18 +3,15 @@
 #include<algorithm>
 using namespace std;
 
-bool palindrome ();
-char text[1][50];
 
 void main () {
-	//char text[1][50];
+	char text[1][50];
 
 	int count = 0;
 	
 	cout<<"Enter text : ";
 	cin>>text[0];
 
-	// bool test = palindrome();
 
 	for (int i=0; i < 50; i++) {
 		if (text[0][i] == NULL) i=100; // not loop
@@ -38,9 +35,4 @@ void main () {
 	else if (checkPal == true) cout<<"Your text is not palindrome";
 
 	cout<<endl;
-}
-
-bool palindrome (char text[]) {
-	cout<<text[0]<<endl;
-	return true;
 }
